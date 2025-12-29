@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Smart Form Validator</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Smart Form Validator</h1>
+
+    <form id="signupForm" novalidate>
+      <label>
+        Name:
+        <input type="text" id="name" />
+        <small class="error"></small>
+      </label>
+
+      <label>
+        Email:
+        <input type="email" id="email" />
+        <small class="error"></small>
+      </label>
+
+      <label>
+        Password:
+        <input type="password" id="password" />
+        <small class="error"></small>
+      </label>
+
+      <label>
+        Confirm Password:
+        <input type="password" id="confirmPassword" />
+        <small class="error"></small>
+      </label>
+
+      <button type="submit">Create Account</button>
+    </form>
+  </body>
+</html>
