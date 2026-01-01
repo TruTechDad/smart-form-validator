@@ -9,4 +9,25 @@ form {
 
 label {
   display: block;
+  margin-bottom: 15px;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+}
+
+input.error-input {
+  border: 2px solid red;
+}
+
+input.success-input {
+  border: 2px solid green;
+}
+
+small.error {
+  color: red;
+  height: 16px;
+  display: block;
 }
